@@ -1,2 +1,18 @@
-body {background: black}
-h1,p{color:#E0FFFF;}
+body {
+	background-color: #4d5966;
+	margin: 300px 50px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+h1,p{
+	color:#FFF5EE;
+	}
+p{
+	background-color: #FFF5EE;
+	margin-left: 50px;
+	height: 20px;
+	width: 160px;
+	}
+h6{
+	color:#FFF5EE;
+	margin-left: 50px;
+	}
