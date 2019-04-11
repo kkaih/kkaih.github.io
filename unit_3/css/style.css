@@ -1,0 +1,38 @@
+body {
+	background: url("../images/BackgroundPlaceholder.jpg");
+	background-size: cover;
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 50em;
+	color: #53CBDB;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#banner {
+	text-align: right;
+}
+
+#hero {
+	text-align: center;
+}
+
+a {
+	color: #777;
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: none;
+}
+
+#example1, #example2, #example3 {
+	width: 150px;
+	height: 150px;
+	border: 3px solid black;
+	display: inline-block;
+	margin: 30px;
+	text-align: center
+}
