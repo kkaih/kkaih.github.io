@@ -70,3 +70,22 @@ button {
 	margin: 30px;
 	text-align: center;
 }
+
+#footer {
+	background-color: #222;
+	color: #fff;
+	padding: 1em;
+	max-width: none;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3 {
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+}
