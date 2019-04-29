@@ -35,46 +35,78 @@ a {
 	background: none;
 }
 
-ul{
+ul {
 	text-align: center;
 	list-style-type: none;
 }
 
-
-#banner {
+nav {
 	text-align: right;
 	margin: 10px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-#hero {
-	background: url("../images/BackgroundWaves1.jpg") no-repeat center fixed;
-	background-size: cover;
-	background-color: #fff;
+header {
+/*	background: url("../images/BackgroundWaves1.jpg") no-repeat center fixed;
+	background-size: cover;*/
+	background-color: #FFED74;
 	font-family: "Open Sans", sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	padding-top: 27em;
 	padding-bottom: 27em;
+	border: 1px black solid;
+	padding: 20px;
+}
 
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+/*	background-color: #222;
+*/	color: #fff;
+	padding: 1em;
+	font-weight: lighter;
+	text-align: center;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #UX {
 	padding: 5em;
 	color: #fff;
-	background-color: #53CBDB;
-}
+/*	background-color: #53CBDB;
+*/}
 
 #about {
-	background-color: #fff;
-	color: rgba(0,0,0,.75);;
+/*	background-color: #fff;
+*/	color: rgba(0,0,0,.75);;
 	padding: 5em;
 	background-origin: border-box;
 	background: url("../images/BackgroundFlowers.jpg") no-repeat center fixed;
 }
 
-#portfolio{
-	background-color: rgba(0,0,0,.75);
-	color: #fff;
+#portfolio {
+/*	background-color: rgba(0,0,0,.75);
+*/	color: #fff;
 	padding: 5em;
 }
 
@@ -90,13 +122,5 @@ ul{
 
 #skills {
 	padding: 5em;
-}
-
-#footer {
-	background-color: #222;
-	color: #fff;
-	padding: 1em;
-	font-weight: lighter;
-	text-align: center;
 }
 
