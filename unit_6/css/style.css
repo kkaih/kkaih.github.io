@@ -38,11 +38,12 @@ a {
 	font-size: 1em;
 }
 
-/*a.hover{
-	color: black;
-	text-decoration-line: unset;
+a:hover {
+	transition: 1s;
+	color: #53CBDB;
+	text-decoration: underline;
 	text-decoration-color: rgba(0,0,0,.9);
-}*/
+}
 
 ul {
 	text-align: center;
