@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: rgba(0,0,0,.75);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 3em;
+}
+
+h2 {
+	font-weight: lighter;
+	font-size: 2.5em;
+}
+
+h3 {
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Barlow', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	font-size: 1em;
+}
+
+a:hover {
+	transition: 1s;
+	color: #53CBDB;
+	text-decoration: underline;
+	text-decoration-color: rgba(0,0,0,.9);
+}
+
+span {
+	margin: 1em;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+nav {
+	text-align: right;
+	padding: 1em 1em 0em 0em;
+	background-color: #222;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+header {
+	background: url("../images/BackgroundWaves1.jpg") no-repeat right fixed;
+	background-size: cover;
+	padding: 20em 0em;
+	height: 100vh;
+}
+
+div {
+}
+
+section {
+}
+
+article {
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	padding: 1em;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/*.clearfix {
+	overflow: visible;
+}*/
+
+.links {
+	margin: 1.5em 0em;
+	font-size: 1em;
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	color: rgba(0,0,0,.75);
+	text-decoration: none;
+	border: none;
+	text-transform: none;
+}
+
+.button {
+	background-color: rgba(0,0,0,.75);
+	border: none;
+	border-radius: .5em;
+	color: #fff;
+	padding: 1em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: .2em .1em;
+}
+
+.button:hover {
+	background-color: #fff;
+	transition: .5s;
+	color: #53CBDB;
+	text-decoration: underline;
+	text-decoration-color: rgba(0,0,0,.9);
+	cursor: pointer;
+}
+
+.wrapper {
+	scroll-snap-type: y mandatory;
+}
+
+#hero_text {
+	text-align: right;
+	max-width: 50%;
+	float: right;
+	margin: 1em;
+}
+
+#UX {
+	padding: 5em;
+	color: #fff;
+	background-color: rgba(0,0,0,.75);
+}
+
+#about {
+	background-color: #fff;
+	color: rgba(0,0,0,.75);;
+	padding: 5em;
+	background-origin: border-box;
+	background: url("../images/BackgroundFlowers.jpg") no-repeat center fixed;
+}
+
+#portfolio {
+	background-color: rgba(0,0,0,.75);
+	color: #fff;
+	padding: 5em;
+}
+
+#portfolio_cards {
+	padding: 20em 0;
+	margin: 20em 0;
+}
+
+.card {
+	width: 15em;
+	height: 15em;
+	margin: 2em;
+	text-align: center;
+	float: left;
+	width: 25%;
+	transition: .5s;
+	box-shadow: 0 1em 2em 0 rgba(255,255,255,0.2);
+}
+
+.card_label {
+	padding: 1em 2em 1em;
+}
+
+.card:hover {
+	box-shadow: 0 2em 4em 0 rgba(255,255,255,0.2);
+}
+
+#skills {
+	padding: 5em;
+	margin-bottom: 5em;
+}
+
+#two_column {
+	padding: 2em;
+}
+
+#left {
+	float: left;
+	width: 30%;
+}
+
+#right {
+	float: right;
+	width: 62%;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+	body {
+		font-size: 12px;
+	}
+
+	#hero_text {
+		text-align: center;
+		float: none;
+		margin: 1em;
+	}	
+
+	.card {
+		float: none;
+		min-width: 250px;
+	}
+
+	.card {
+		margin: 0 15em 15em 0;
+	}
+
+	#left {
+		float: none;
+		width: 90%;
+		padding-bottom: 2em;
+	}
+
+	#right {
+		float: none;
+		width: 90%;
+		padding-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	body {
+		font-size: 12px;
+	}
+
+	#hero_text {
+		text-align: center;
+		float: none;
+		margin: 1em;
+	}	
+
+	.card {
+		float: none;
+		min-width: 250px;
+	}
+
+	.card {
+		margin: 0 15em 15em 0;
+	}
+
+	#left {
+		float: none;
+		width: 90%;
+		padding-bottom: 2em;
+	}
+
+	#right {
+		float: none;
+		width: 90%;
+		padding-bottom: 0;
+	}
+}
